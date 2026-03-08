@@ -1,0 +1,80 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+    margin: 20px;
+    font-size: 20px;
+}
+.box1{
+    border: 0px solid #333;
+    width: 100px;
+    height: 100px;
+    transform: skewX(30deg);
+    background-color: palevioletred;
+    position: absolute;
+    top:10px;
+    left: 840px;
+}
+
+.box2{
+    border: 0px solid #333;
+    width: 60px;
+    height: 100px;
+    transform: rotate(90deg);
+    background-color: rgb(220, 148, 203);
+    position: relative;
+    top: 100px;
+    left: 840px;
+}
+
+.box3{
+    border: 0px solid #333;
+    width: 270px;
+    height: 200px;
+    background-color: rgb(244, 246, 161);
+    position: fixed;
+    bottom:0px;
+    right: 0px;
+}
+.box3:hover{
+    background-color: rgb(25, 244, 43);
+    transform:  scale(1.5);
+    color: white;
+}
+
+.box4{
+    border: 0px solid #333;
+    width: 70px;
+    height: 200px;
+    background-color: rgb(186, 189, 47);
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+
+.box5{
+    width: 170px;
+    height: 150px;
+    background-color: rgb(56, 77, 180);
+    position: sticky;
+    top:40px;
+    left: 100px;
+}
+
+.box6{
+   border: 0px solid #333;
+    width: 110px;
+    height: 80px;
+    background-color: #6b04e1;
+    color:white;
+    position: absolute;
+    top:300px;
+    left: 840px;
+}
+.box6:hover{
+    background-color: #4b02a8;
+    z-index: 999;
+}
