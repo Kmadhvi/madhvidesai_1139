@@ -1,7 +1,7 @@
 // 1. Student Report System
 
 let students = [
-  { name: "Madhvi", marks: [80, 70, 90] },
+  { name: "Hiya", marks: [80, 70, 90] },
   { name: "Riya", marks: [40, 55, 50] },
   { name: "Ayaan", marks: [30, 35, 25] }
 ];
@@ -27,3 +27,5 @@ let studentReport = students.map(student => {
 });
 
 console.log(studentReport);
+
+
